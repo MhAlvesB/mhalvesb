@@ -1,0 +1,297 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    height: 100%;
+}
+
+.main_bar{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main_bar img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.container img{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+li button{
+    border: none;
+    background-color:#0068bd;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+li input{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #0068bd;
+
+}
+
+
+.banner{
+    background-image: url('Imagens/Thumbnail-GOW.jpg');
+    background-size: cover;
+    height: 800px;
+    background-position:top;
+    
+}
+
+.about{
+    display: flex;
+    background-color: #eeeeee;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    text-align: center;
+
+}
+
+.text h4{
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+
+.text h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 8px;
+}
+
+.text p{
+    font-size: 20px;
+    color: #acaaaa;
+}
+
+.giftcard{
+    display: flex;
+    padding: 20px;
+}
+
+.giftcard img{
+    margin: 0px 10px;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloco button{
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+    background-color: #dc6539;
+    padding: 10px 15px;
+}
+
+.bloco button:hover{
+    background-color: #6b311b;
+}
+
+footer{
+    display: flex;
+    background-color:#0068bd;
+    justify-content: space-between;
+}
+
+.ps{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+.information{
+    display: flex;
+}
+
+.information ul{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.information li{
+    color: white;
+    font-size: 18px;
+}
+
+
+.copyright{
+    background-color:#000000;
+    height: 50px;
+    color: white;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section li:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+header button:hover{
+    border: 1px solid #0068bd;
+    background-color: white;
+    color:#0068bd;
+}
+
+.traços
+{
+    flex-direction: column;
+    margin-left: 10px;
+    display: none;
+}
+
+.traços li{
+    padding: 0px;
+    height: 2px;
+    width: 30px;
+    margin: 5px 0;
+    background-color: black;
+}
+
+.logoimg{
+    display: none;
+}
+
+
+@media(max-width: 1440px){
+    .giftcard img{
+        width: 350px;
+        margin: 50px;
+    }
+
+    .giftcard{
+        flex-wrap: wrap;
+        padding: 0px 50px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 770px)
+{
+    .main_bar{
+        justify-content: center;
+    }
+
+    .container section{
+        display: none;
+    }
+    .container{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .traços{
+        display: flex;
+    }
+
+    .pesq{
+        display: none;
+    }
+
+    .botão{
+        padding: 0px;
+        margin-right: 5px;
+    }
+
+    
+
+    .container ul{
+        padding: 0px;
+    }
+
+    .container ul{
+        flex: 1;
+        justify-content: center;
+    }
+    .logoimg{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        flex: 1;
+        
+    }
+
+    .giftcard{
+        flex-wrap: wrap;
+        padding: 0px 0;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .giftcard img{
+        width: 300px;
+        margin: 20px;
+    }
+
+    .bloco{
+        margin: 20px 0;
+    }
+    
+    .text{
+        width: 100%;
+        
+    }
+
+    .banner{
+        height: 500px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+}
