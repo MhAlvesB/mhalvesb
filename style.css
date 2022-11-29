@@ -3,6 +3,7 @@ body, html{
     padding: 0px;
     font-family: arial;
     height: 100%;
+    width: 100%;
 }
 
 .main_bar{
@@ -293,5 +294,15 @@ header button:hover{
 
     .copyright{
         text-align: center;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        flex-wrap: wrap;
     }
 }
