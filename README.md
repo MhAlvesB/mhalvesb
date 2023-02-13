@@ -1,8 +1,4 @@
-### Olá a todos
+#Olá
 
 
-Aqui está uma descrição do que fiz!
-
-- Atualmente estou estudando HTML/CSS
-- Já fiz pequenos projetos e sites
-- Pretendo estudar ambas as partes FrontEnd e BackEnd (FullStack)
+<p align="center">Estou estudando HTML e CSS para criar páginas web e melhorar minhas habilidades de design e desenvolvimento front-end. Este github é uma coleção de projetos pessoais e exercícios práticos que estou fazendo para aprimorar meu conhecimento nessas tecnologias.</p>
