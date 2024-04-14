@@ -6,7 +6,7 @@
 
 <p>Freelancer em programação web, estudando novas tecnologias e curioso em programação e buscando aprender coisas novas.</p>
 
-Atualmente sei das seguintes tecnologias ✅
+Atualmente trabalho com as seguintes tecnologias ✅
 
 
 <div>
